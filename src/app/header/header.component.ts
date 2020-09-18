@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 // import { FormBuilder, FormControl, FormGroup } from '@angular/forms';
-import { FormGroup, FormControl } from '@angular/forms';
+// import { FormGroup, FormControl } from '@angular/forms';
 
 @Component({
   selector: 'app-header',
@@ -8,7 +8,7 @@ import { FormGroup, FormControl } from '@angular/forms';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-  searchForm: FormGroup;
+  // searchForm: FormGroup;
   // constructor(private fb:FormBuilder) { }
   constructor() { }
 
@@ -21,16 +21,16 @@ export class HeaderComponent implements OnInit {
     // });
 
     //Alternative
-    this.searchForm= new FormGroup({
-      depart: new FormControl(),
-      arrive: new FormControl(),
-      poids: new FormControl(),
+    // this.searchForm= new FormGroup({
+    //   depart: new FormControl(),
+    //   arrive: new FormControl(),
+    //   poids: new FormControl(),
 
-    });
+    // });
   }
   //Methode appelée lors du clic sur le boutton submit
-  search(){
-    console.log('Donnée du formulaire...',this.searchForm.value);
-  }
+  // search(){
+  //   console.log('Donnée du formulaire...',this.searchForm.value);
+  // }
 }
 
