@@ -35,17 +35,20 @@
       </h3>
 
       <div class="recherche">
-        <form >
+        <form [formGroup]="searchForm" (ngSubmit)="search()">
+          <!-- <form action=""> -->
           <div class="row">
-          <div class="col-sm-4"><input  type="search" placeholder="Adresse de départ" style="border: none;"/><i class="fa fa-calendar fa-1x"  aria-hidden="true"></i></div>
-          <div class="col-sm-4"><input  type="search" placeholder="Adresse d'arrivé" style="border: none;"/><i class="fa fa-calendar fa-1x"  aria-hidden="true"></i></div>
-          <div class="col-sm-2"><input  type="search" placeholder="Poids (kg)" style="border: none; margin-top: 10px;"/>  </div>
+          <div class="col-sm-4"><input  type="date" placeholder="Adresse de départ" formControlName="depart" style="border: none;"/><i class="fa fa-calendar fa-1x"  aria-hidden="true"></i></div>
+          <div class="col-sm-4"><input  type="date" placeholder="Adresse d'arrivé" formControlName="arrive" style="border: none;"/><i class="fa fa-calendar fa-1x"  aria-hidden="true"></i></div>
+          <div class="col-sm-2"><input  type="number" placeholder="Poids (kg)" formControlName="poids" style="border: none; margin-top: 10px;"/>  </div>
            <div class="col-sm-2"><button class="submit" type="submit"><i class="fa fa-search fa-1x"  aria-hidden="true"></i></button></div>
           <!-- <div class="col-sm-2"><input  type="button" style="border: none;"/> -->
             <!-- </div> -->
 
         </div>
-
+        <!-- <pre>
+          {{ searchForm.value | json }}
+        </pre> -->
         </form>
       </div>
     </div>
