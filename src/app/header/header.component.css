@@ -1,0 +1,97 @@
+/* @media only screen and (max-width: 1440px) { */
+
+.header{
+background-image: url(../../assets/images/OQI7ZM0.jpg) ;
+height: 800px;
+background-size: cover;
+margin-top: -150px;
+width: 1440px !important;
+};
+.header-top{
+  margin-top: 160px;
+}
+.ouisend{
+  color: #1B3C68;
+   size: 30px;
+   margin-left: 5px;
+   font-weight: bold;
+}
+.logo{
+  margin-left: 20px;
+  height: 20px;
+  width: 20px;
+
+
+}
+.content{
+  margin-top: 180px;
+  text-align: center;
+}
+.slogant{
+  font-weight: bold;
+  color: white;
+  margin-bottom: 50px;
+}
+.recherche{
+  background-color: white;
+  border-radius: 30px;
+  margin-left: 30%;
+  width: 500px;
+  height: 35px;
+}
+input
+{
+font-size: 12px;
+border-radius: 20px;
+}
+input:focus{
+border: none !important;
+}
+
+.fa-calendar{
+  color: #F57F20;
+  margin-left: -20px;
+  margin-top: 10px;
+}
+
+.inscrip{
+  background-color: white;
+  border-radius: 30px;
+}
+.nav:hover{
+  background-color: white;
+  color: #1B3C68;
+}
+.trans{
+  color: #1B3C68;
+}
+.btn{
+  border-radius: 30px;
+}
+.trans:hover{
+  color: white;
+  background-color: #1B3C68;
+  border-radius: 30px;
+}
+.submit{
+  background-color: #FC7000;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+  border:  none;
+  color: white;
+  margin-top:2px;
+  margin-right: -20px;
+}
+.submit:hover{
+  background-color: white;
+  color: #FC7000;
+}
+.menu{
+  margin-top: 160px;
+}
+/* } */

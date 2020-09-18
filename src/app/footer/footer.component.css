@@ -1,0 +1,39 @@
+/* @media only screen and (max-width: 1440px) { */
+.footer{
+ background-color:  #0F2037;
+ height: 200px;
+ padding-top: 20px;
+ color: white;
+ width: 1440px;
+}
+.menu-footer{
+  margin-left: 40px;
+  font-weight: bold;
+}
+ul{
+  list-style-type: none;
+}
+
+.send{
+  background-color: #FC7000;
+  /* margin-left: -23px; */
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+  border:  none;
+  color: white;
+  margin-top:2px;
+  margin-left: 5px;
+}
+.send:hover{
+  background-color: white;
+  color: #FC7000;
+}
+.email{
+  margin-left: 15px;
+}
+/* } */
